@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4px 18px;
+}
+
+thead {
+    font-weight: 545;
+}
+
+/* h3 {
+    background-color: aquamarine;
+} */
+
+.btn {
+    /* height: 22px; */
+    /* width: 50px; */
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}

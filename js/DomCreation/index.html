@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            border-radius: 9px;
+        }
+
+        li {
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Apps</h2>
+    <ol id="apps">
+    </ol>
+    <script>
+        // height and width constants for image
+        const height = "50px";
+        const width = "50px";
+
+        // creating logo 
+        const netflixLogo = `<img src="nf.jpeg" height=${height} width=${width} alt="">`;
+        const amazonPrimeLogo = `<img src="amazon.webp" height=${height} width=${width} alt="">`
+        const hotstarIcon = `<img src="disney.jpeg" height=${height} width=${width} alt="">`
+
+        // creating elements
+        const html = `<li> ${netflixLogo} Netflix</li>
+        <li> ${amazonPrimeLogo} Amazon prime</li>
+        <li> ${hotstarIcon} Hotstar</li>`
+
+        // adding element to document
+        document.getElementById("apps").innerHTML = html;
+    </script>
+</body>
+
+</html>

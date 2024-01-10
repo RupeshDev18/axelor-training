@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+}
+
+.container {
+  width: 400px;
+  height: 500px;
+  /* border: 1px solid black; */
+  /* padding: 9px; */
+  /* box-shadow: 5px 5px; */
+  /* display: flex; */
+  /* align-content: center;
+  justify-content: center; */
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 15px 7.5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1px;
+}
+
+.items {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+.check label {
+  width: 80px;
+}
+
+.check .box {
+  display: flex;
+  justify-items: start;
+  flex-direction: column;
+  width: 150px;
+}
+
+.check .box .items {
+  display: block;
+}
+
+.check {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn button {
+  margin: 3px;
+  border-radius: 4px;
+  background-color: blue;
+  width: 70px;
+  height: 30px;
+  color: white;
+}
+
+.error {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  font-size: 14px;
+  color: red;
+}
