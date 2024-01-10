@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 300px;
+  }
+  
+  .items {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .check label {
+    width: 80px;
+  }
+  .check .box {
+    display: flex;
+    justify-items: start;
+    flex-direction: column;
+    width: 150px;
+  }
+  .check .box .items {
+    display: block;
+  }
+  .check {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+  }
+  .btn button {
+    margin: 3px;
+    border-radius: 4px;
+  }

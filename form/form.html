@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="" method="post">
+        <div class="items">
+          <label for="username">Username: </label>
+          <input type="text" name="username" />
+        </div>
+
+        <div class="items">
+          <label for="pass">Password: </label>
+          <input type="text" name="pass" />
+        </div>
+
+        <div class="items">
+          <label for="city">City of Employment: </label>
+          <input type="text" name="city" />
+        </div>
+
+        <div class="items">
+          <label for="server">Web server: </label>
+          <select name="server" id="">
+            <option value="server">--Choose a server--</option>
+            <option value="surat">surat</option>
+            <option value="banglore">banglore</option>
+            <option value="france">france</option>
+            <option value="paris">paris</option>
+          </select>
+        </div>
+
+        <div class="check">
+          <label for="role">Please specify your role: </label>
+          <div class="box">
+            <div class="items">
+              <input type="radio" name="role" id="adm" /><label for="adm">
+                Admin</label
+              >
+            </div>
+            <div class="items">
+              <input type="radio" name="role" id="eng" /><label for="eng"
+                >Engineer</label
+              >
+            </div>
+            <div class="items">
+              <input type="radio" name="role" id="Manager" /><label
+                for="Manager"
+                >Manager</label
+              >
+            </div>
+            <div class="items">
+              <input type="radio" name="role" id="guest" /><label for="guest"
+                >Guest</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <br />
+
+        <div class="check">
+          <label for="sign-on"> Single Sign-on to the following: </label>
+          <div class="box">
+            <div class="items">
+              <input type="checkbox" name="admin" id="admin" />
+              <label for="admin">Admin</label>
+            </div>
+            <div class="items">
+              <input type="checkbox" name="Payroll" id="Payroll" />
+              <label for="Payroll">Payroll</label>
+            </div>
+            <div class="items">
+              <input type="checkbox" name="Self-service" id="Self-service" />
+              <label for="Self-service">Self-service</label>
+            </div>
+          </div>
+        </div>
+        <div class="btn">
+          <button type="submit">Login</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
