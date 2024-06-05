@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content:  space-between;
+  width: 100%;
+
+}
+.text-orange{
+  color: orange;
+}
+/* Header */
+nav {
+  background-color: rgb(12, 175, 124);
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+.nav-container{
+  width: 100%;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+li {
+  padding: 0 10px;
+  font-weight: medium;
+  font-size: 16px;
+  color: white;
+}
+
+/*Homepage*/
+.main {
+  margin-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+strong {
+  font-family: cursive;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+main .profile img {
+  border-radius: 50%;
+  margin: 15px;
+}
+
+p {
+  padding-bottom: 5px;
+  text-align: justify;
+}
+
+/* work */
+.work {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#work {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  height: 250px;
+  width: 250px;
+  background-color: rgb(6, 181, 126);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center
+}
+
+.card img {
+  margin: 4px;
+  height: 200px;
+  width: 200px;
+}
+
+/* about */
+.about {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+#about {
+  width: 60%;
+  text-align: justify;
+}
+
+#about h3 {
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+/* blog */
+.blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+#blog {
+  width: 60%;
+}
+
+
+/* contact */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+  height: 375px;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 20px;
+  flex-direction: column;
+  width: 100%;
+}
+h3{
+  margin-bottom: 29px;
+  color: orange;
+}
+#contact .container {
+  display: flex;
+  text-align: start;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.left,
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+label {
+  text-transform: capitalize;
+  color: rgb(255, 165, 0);
+}
+
+input,
+textarea {
+  background-color: transparent;
+  border: 0px solid;
+  border-bottom: 1px solid grey;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  color: rgb(35, 125, 125);
+}
+
+
+textarea {
+  margin-bottom: 8px;
+  resize: none;
+}
+
+
+
+.footer {
+  height: 70px;
+  background-color: rgb(12, 175, 124);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer ul {
+  display: flex;
+  float: right;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.foo-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  font-size: 28px;
+  
+}
+
+
+.foo-left,
+.foo-right {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Media query*/
+@media (max-width: 1089px) {
+  .logo {
+    font-size: 20px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  #work {
+    flex-wrap: wrap;
+  }
+
+  .foo-cont {
+    justify-content: space-between;
+
+  }
+}
+.text-white{
+  color: white;
+}

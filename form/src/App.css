@@ -1,0 +1,70 @@
+.App {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 450px;
+  height: 470px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1px;
+}
+
+.items {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.check label {
+  width: 90px;
+}
+
+.check .box {
+  display: flex;
+  justify-items: start;
+  flex-direction: column;
+  width: 150px;
+}
+
+.check {
+  display: flex;
+  justify-content: space-between;
+}
+
+.check .box .items {
+  display: block;
+}
+
+.check,
+.items {
+  margin-bottom: 25px;
+}
+
+.box > .items {
+  margin: 0px;
+}
+
+.box,
+select {
+  margin-right: 45px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 20px;
+}

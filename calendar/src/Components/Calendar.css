@@ -1,0 +1,56 @@
+.container {
+    text-align: center;
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    height: 350px;
+  }
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    border-color: #646cff;
+    color: #646cff;
+  }
+  
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+  .day-header, .calendar-day {
+    padding: 8px;
+    text-align: center;
+  }  
+  .current-day {
+    display: flex;
+    align-items: center;justify-content: center;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+  }
+  .text-red{
+    color: red;
+  }
+  .text-green{
+    color: green;
+  }
